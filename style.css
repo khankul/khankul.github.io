@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'IBM XGA-AI';
+    src: url('assets/fonts/IBM_XGA-AI/IBM_XGA-AI.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+::selection {
+    background-color: white;
+    color: black;
+}
+
+body {
+    font-family: 'IBM XGA-AI', monospace;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: black;
+    color: white;
+}
+
+h1, h2, p {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    background-color: orange;
+    color: black;
+}
+
+.card {
+    background-color: gray;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
